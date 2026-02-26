@@ -9,8 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-            echo "Random job is running..."
-      
+            echo "Random job is running..."     
   claude-review:
     if: github.event.pull_request.draft == false
 
